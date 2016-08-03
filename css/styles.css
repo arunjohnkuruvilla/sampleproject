@@ -1,0 +1,259 @@
+.input {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 1em;
+	max-width: 350px;
+	width: calc(100% - 2em);
+	vertical-align: top;
+}
+
+.input__field {
+	position: relative;
+	display: block;
+	float: right;
+	padding: 0.8em;
+	width: 60%;
+	border: none;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #aaa;
+	font-weight: 400;
+	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+	outline: none;
+}
+
+.input__label {
+	display: inline-block;
+	float: right;
+	padding: 0 1em;
+	width: 40%;
+	color: #696969;
+	font-weight: bold;
+	font-size: 70.25%;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.input__label-content {
+	position: relative;
+	display: block;
+	padding: 1.6em 0;
+	width: 100%;
+}
+
+.graphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.icon {
+	color: #ddd;
+	font-size: 150%;
+}
+
+/* Makiko */
+.input--makiko {
+	overflow: hidden;
+	background: #CBCBCB;
+}
+
+.input__field--makiko {
+	width: 100%;
+	background: transparent;
+	color: #797693;
+	z-index: 10;
+	font-weight: 500;
+}
+
+.input__label--makiko {
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	pointer-events: none;
+	color: #fff;
+}
+
+.input__label--makiko::before {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 45%;
+	left: 20px;
+	background: url(../img/search.svg) no-repeat center center;
+	background-size: 100%;
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.7,0,0.3,1);
+	transition: transform 0.4s cubic-bezier(0.7,0,0.3,1);
+}
+
+.input__label-content--makiko {
+	display: block;
+	padding: 1.5em 0 0 2.75em;
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.7,0,0.3,1);
+	transition: transform 0.4s cubic-bezier(0.7,0,0.3,1);
+}
+
+.input__field--makiko:focus + .input__label--makiko::before,
+.input--filled .input__label--makiko::before {
+	-webkit-transform: scale3d(38, 38, 1);
+	transform: scale3d(38, 38, 1);
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.content {
+	font-size: 150% !important;
+}
+
+.content h2 {
+	margin: 0 0 2em;
+	opacity: 0.1;
+}
+
+.content p {
+	margin: 1em 0;
+	padding: 5em 0 0 0;
+	font-size: 0.65em;
+}
+
+.bgcolor-1 { background: #f0efee; }
+.bgcolor-2 { background: #f9f9f9; }
+.bgcolor-3 { background: #e8e8e8; }
+
+.ui-autocomplete { z-index:2147483647; }
+
+#bookDetail {
+	display: none;
+}
+
+/**************************************************
+7.  QUOTE - 3
+**************************************************/
+#quote-3 {
+    background-image:url(../img/quote-3.jpg);
+    background-attachment:fixed;
+    background-color:transparent;
+    background-size:cover;
+    margin:0;
+    text-align:center;
+    padding: 100px;
+    -webkit-box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
+}
+#quote-3 h2 {
+    font-size: 50px;
+    color: #333
+}
+#quote-3 h3 {
+    color: #333
+}
+
+#quote-3 a{
+    margin-top:30px;
+    padding:7px 30px 7px 30px;
+    background-color:#e6ae49;
+    border-radius:0;
+    color:#000;
+    border:0;
+    font-size:14px;
+    font-weight:900;
+    letter-spacing:2px
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #quote-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+        
+}
+/**************************************************
+7.  QUOTE - 4
+**************************************************/
+#quote-4 {
+    background-image:url(../img/quote-4.jpg);
+    background-attachment:fixed;
+    background-color:transparent;
+    background-size:cover;
+    margin:0;
+    text-align:center;
+    padding: 100px;
+    -webkit-box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
+}
+#quote-4 h2 {
+    font-size: 50px;
+    color: #e6ae49
+}
+#quote-4 h3 {
+    color: #e6ae49
+}
+
+#quote-4 a{
+    margin-top:30px;
+    padding:7px 30px 7px 30px;
+    background-color:#e6ae49;
+    border-radius:0;
+    color:#000;
+    border:0;
+    font-size:14px;
+    font-weight:900;
+    letter-spacing:2px
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #quote-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+        
+}
