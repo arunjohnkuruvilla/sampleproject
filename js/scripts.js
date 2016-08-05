@@ -32,6 +32,22 @@ $( function() {
             image: "public.gif",
             summary: "The Art of Public Speaking 11e continues to define the art of being the best by helping today's students become capable, responsible speakers and thinkers. With a strong focus on the practical skills of public speaking and grounded in classical and contemporary theories of rhetoric, The Art of Public Speaking offers full coverage of all major aspects of speech preparation and presentation. "
         },
+        { 
+            label: "Accounting", 
+            value: "Accounting - 26th edition",
+            name: "Accounting - 26th edition",
+            publisher: "Cengage Learning",
+            image: "account.gif",
+            summary: " Market-leading Warren/Reeve/Duchac ACCOUNTING has been on the forefront   of innovation and change based on the needs of today's teaching and   learning environment. Warren/Reeve/Duchac ACCOUNTING 26E and   CengageNOWv2 help elevate thinking with content that addresses each   stage of the learning process from motivation to mastery. This   integrated system motivates students to learn, provides practice   opportunities to better prepare for exams, and helps students achieve   mastery with tools to help them make connections and see the big   picture.  The Complete Learning System in ACCOUNTING and CengageNOWv2 is   built around the way students use textbooks and online resources to   learn, study and complete homework, allowing them to achieve ultimate   success in this course. New to this edition, the authors have created   innovative content that is focused on unique student and instructor   needs before and after lecture - and the type of activities best-suited   to each point in learning. New content such as the author-written   Dynamic Exhibits allow students to change the variables in a scenario   and see how a change ripples through the accounting system, helping   students understand how concepts relate to one another. Dynamic Exhibits   allow students to see connections and relationships like never before!    The end goal of Warren/Reeve/Duchac ACCOUNTING and CengageNOWv2 is to   elevate thinking and create more empowered and prepared students--ready   to take on the rest of their educational and career goals."
+        },
+        { 
+            label: "Business Analytics", 
+            value: "Business Analytics - 2nd edition",
+            name: "Business Analytics - 2nd edition",
+            publisher: "Pearson",
+            image: "public.gif",
+            summary: " A balanced, holistic approach to understanding business analytics. This   book provides readers with the fundamental concepts and tools needed to   understand the emerging role of business analytics in organizations.   Evans also shows readers how to apply basic business analytics tools in a   spreadsheet environment, and how to communicate with analytics   professionals to effectively use and interpret analytic models and   results for making better business decisions.        "
+        },
     ];
     $( "#tags" ).autocomplete({
         source: availableTags,
@@ -80,3 +96,21 @@ $( function() {
                     }
                 }
             })();
+            $(document).ready(function() {
+    $("#owl-example").owlCarousel({
+        items : 5,
+        itemsCustom : false,
+        itemsDesktop : [1199,4],
+        itemsDesktopSmall : [980,3],
+        itemsTablet: [768,2],
+        itemsTabletSmall: false,
+        itemsMobile : [479,1],
+        singleItem : false,
+        itemsScaleUp : false,
+        slideSpeed : 200,
+        paginationSpeed : 800,
+        rewindSpeed : 1000,
+        autoPlay : true,
+        stopOnHover : false,
+    }); 
+});
