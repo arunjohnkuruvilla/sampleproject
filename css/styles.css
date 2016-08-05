@@ -278,8 +278,8 @@ box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
     width: 250px
 } 
 #owl-example img {
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
     height: 80px;
 }
 #owl-example img:hover {
@@ -330,4 +330,9 @@ box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
     overflow: hidden;
     z-index: -100;
     width:100%;
+}
+#video-jumbotron {
+	-webkit-box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 5px 26px 0px rgba(0,0,0,0.75);
 }
