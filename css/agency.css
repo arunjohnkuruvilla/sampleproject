@@ -250,9 +250,25 @@ header .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
 }
-header .intro-text .intro-heading {
+header .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text  {
   font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive !important;
-  text-transform: lowercase !important;
+  font-weight: 700;
+  font-size: 90px !important;
+  line-height: 64px;
+  margin-bottom: 25px; 
+  letter-spacing: 4px;
+  color: #e6ae49;
+  
+}
+header .intro-heading {
+  font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive !important;
   font-weight: 700;
   font-size: 90px !important;
   line-height: 64px;
@@ -275,7 +291,6 @@ header .intro-text .intro-heading {
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 85px;
     line-height: 85px;
